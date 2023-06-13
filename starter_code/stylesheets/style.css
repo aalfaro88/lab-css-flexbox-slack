@@ -8,3 +8,337 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+
+
+@media (max-width: 768px) {
+
+    body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica, Arial;
+        font-size: 10px;
+    }
+
+    .top-menu {
+        display: flex;
+        background-color: #540B51;
+        align-items: center;
+        height: 50px;
+        justify-content: space-between;
+    }
+
+    .icons {
+        margin-left: 10px;
+        display: flex;
+        height: 30px;
+        justify-content: flex-start;
+    }
+
+    .menus {
+        margin-right: 10px;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    .button {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .header {
+        display: flex;
+        background-color: #540B51;
+        align-items: center;
+        flex-wrap: wrap;
+        color: white;
+        text-align: center;
+    }
+
+    .header > div> h1 {
+        margin: 10px;
+        font-size: 3em;
+    }
+    
+    .header > div> p {
+        margin: 10px;
+        font-size: 1.5em;
+    }
+
+    .highlighter {
+        color: #ECB12F
+    }
+
+    .sign-section{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        align-items: center;
+    }
+
+    .sign-email{
+        background-color: white;
+        border-color: transparent;
+        height: 40px;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        width: 90%;
+        margin: 10px
+    }
+
+    .sign-google{
+        display: flex;
+        align-items: center;
+        background-color: #2E71A6;
+        border-color: transparent;
+        height: 40px;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        width: 90%;
+        margin: 10px;
+        color: white;
+        justify-content: space-around;
+    }
+
+    .google-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: transparent;
+        background-color: white;
+        height: 30px;
+        width: 30px;
+
+    }
+
+    .google-size{
+        height: 20px;
+    }
+
+    .image-container {
+        max-width: 100%;
+        overflow: hidden;
+        height: 220px;
+    }
+
+
+    .image-sizes {
+        max-width: 150%;
+    }
+
+    .trusted-companies{
+        display: flex;
+        background-color: #F3EAE2;  
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+
+    .trusted-companies > p{
+        font-size: 1.1em;
+        text-align: center;
+        margin: 25px;
+        text-transform: uppercase;
+    }
+
+
+    .trusted-companies > div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 15px;
+        column-gap: 5px;
+        margin: 10px
+        
+    }
+
+    .trusted-companies > div > img{
+        height: 30px;
+    }
+    
+    .general-info{
+        background-color: #F3EAE2;
+    }
+
+    .general-info > section > div > img{
+        max-width: 95%;
+    }
+
+    .right-image{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .general-info > section > div > h2{
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 1.9em;
+
+    }
+
+    .general-info > section > div > p{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 20px;
+        font-size: 1em;
+        line-height: 1.7;
+        text-align: justify;
+    }
+
+    .general-info > section > div > a{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 20px;
+        font-size: 1em;
+        line-height: 1.7;
+        text-align: justify;
+        text-decoration: none;
+        color: #2E71A6;
+    }
+
+    .general-info > section > div {
+        margin-bottom: 30px;
+    }
+
+    .section-margin{
+        margin-bottom: 30px;
+    }
+
+    .section-data{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .section-data > h3{
+        font-size: 2em;
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: center;
+    }
+
+    .section-data > p{
+        font-size: 1.2em;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .section-data > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .section-data > div > button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        height: 40px;
+        text-transform: uppercase;
+        font-size: 1.1em;
+        width: 160%;
+    }
+    
+    .purple-button{
+        background-color: #540B51;
+        color: white;
+        border: solid white;
+    }
+
+    .white-button{
+        background-color: white;
+        border-color: #540B51;
+        border-style: solid;
+    }
+
+    .section-data > ul > li > p {
+        margin: 5px 100px 10px 100px;
+        font-weight: bold;
+    
+    }
+
+
+    .section-data > ul > li > p > span{
+        font-size: 3em;
+        font-weight: bold;
+        color: #540B51;
+    }
+
+
+
+    .section-data > ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-data >ul > li{
+        text-align: center;
+        list-style: none;
+    }
+
+
+    .section-data2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        background-color: #540B51;
+    }
+
+    .section-data2> h3{
+        font-size: 2em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: center;
+        color: white;
+    }
+
+    .section-data2  > button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        height: 40px;
+        text-transform: uppercase;
+        font-size: 1.1em;
+        width: 90%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+  
+  
+
+
+@media (min-width: 650px) and (max-width: 999px) {
+
+  }
+  
